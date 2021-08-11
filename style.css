@@ -1,0 +1,44 @@
+*{
+    letter-spacing: 4px ;
+    background-color: rgb(0, 0, 0);
+    
+    }
+    
+    .container {
+        display:flex;
+        flex-direction:row;
+        justify-content:space-evenly;
+        align-items:center;
+        text-align:center;
+        min-height:100vh;
+    }
+    
+    
+    .btn-1 {
+        width: 360px;
+        height: 150px;
+        border: none;
+        color : white;
+        background-color: rgb(255,0,68);
+        border-radius: 4px;
+        box-shadow: inset #025aff;
+        transition: ease-in 0.9s ;
+        font-size: 2rem;
+        outline: none;
+        
+    }
+    .btn-1:hover{
+    
+        box-shadow: inset 360px  0 0 0  #003cff;
+        cursor: pointer;
+        color: black;
+    
+    }
+.h2{
+    color:purple;
+    text-align: center;
+    min-height:90hv;
+    
+}
+   
+    
